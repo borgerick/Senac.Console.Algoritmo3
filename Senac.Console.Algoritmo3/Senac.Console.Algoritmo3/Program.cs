@@ -33,7 +33,7 @@ Console.WriteLine();
 Console.Write("Informe o preco da sua internet: ");
 double precoInternet = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
 Console.WriteLine();
-Console.Write("Informe seu ultimo nome, idade e altura");
+Console.Write("Informe seu ultimo nome, idade e altura ");
 string linhas = Console.ReadLine();
 // Vetor de texto - divisão quando encontrar um espaço
 string[] vetor = linhas.Split(' ');
